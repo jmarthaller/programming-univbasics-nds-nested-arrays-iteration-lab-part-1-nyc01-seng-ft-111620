@@ -45,7 +45,15 @@ def find_even_values(array)
 end
 
 
-
+def find_even_values(aoa)
+  aoa.each do |sub_array|
+    sub_array.each do |item|
+      if item % 2 == 0
+        puts item
+      end
+    end
+  end
+end
 
 
 
